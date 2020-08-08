@@ -1,7 +1,8 @@
 # Assignment of Fontend development HTML CSS BOOTSTRAP AND JAVASCRIPT 
 
 
-###Assigment one
+### Assignment one
+
 ---
 **Screen-Shot of Responsive Design**
 ---
@@ -12,3 +13,16 @@
 >Mobile
 
 ![Screen shot of mobile base](Screen-Shot/mobile-1.jpg)
+---
+
+### Assignment Two
+>Window N Tablet
+
+![Screen shot of window 2](Screen-Shot/desktop-2.jpg)
+---
+
+>Mobile
+
+![Screen shot of mobile base](Screen-Shot/mobile-2.jpg)
+---
+

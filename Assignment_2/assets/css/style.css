@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right,rgb(236, 96, 119) ,rgb(204, 75, 187),rgb(177, 100, 212) ,rgb(143, 70, 191) );
+}
+/* globle center */
+.center{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.flex-me{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    font-size: 20px;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    background-color: #FFC600;
+    border-radius: 10%;
+    padding: 5px 15px;
+    border: 1px solid black;
+
+    display: none;
+}
+#toggle{
+    float: left;
+    display: none;
+}
+#rest-nav-list{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 90px 3% 30px 3%; 
+   
+    
+}
+#rest-nav-list >div{
+    padding: 14px 6%;
+    margin: 0 3px;
+    border-radius: 1px solid white;
+    background-color: aliceblue;
+    background-color: #FFC600;
+    /* padding: 0 6.4%; */
+} 
+
+#first-section{
+    margin: 0 3%;
+}
+/* first section */
+
+#image1{
+    background-image: url(/assets/image/sweet1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 60%;
+}
+
+#price{
+    width: 40%;
+    margin: 0 0 0 1%;
+    
+}
+.price-box{
+    height: 190px;
+    background-color: #FFC600;
+    margin: 0 0 20px 0;
+}
+.price-size{
+    font-size: 50px;
+}
+
+#feature-section{
+    margin: 0 3%;
+    height: 200px;
+}
+.feature-box{
+    height: 200px;
+    width: 22%;
+    background-color: aliceblue;
+}
+.emoji{
+    font-size: 30px;
+}
+.text{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* "main-food-section section */
+#main-food-section{
+    height: 300px;
+    margin: 20px 3% 0 3%;
+    background-color: aliceblue;
+}
+#taco-image{
+    background-image: url(/assets/image/taco.jpg);
+    height: 300px;
+    width: 40%;
+    float: left;
+    
+}
+#taco-content{
+    padding-top: 40px;
+    line-height: 30px;
+}
+button{
+    margin: 2px;
+    background-color: #FFC600;
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+}
+#instant-header{
+    height: 50px;
+    margin: 40px 3% 0 3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#instant-header> div > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.line{
+    border-top: 4px solid beige ;
+    border-image: linear-gradient(to right,rgb(33, 33, 207) rgb(131, 19, 19));
+    width: 40%;
+}
+#photo-collection{
+    display: grid;
+    grid-gap: 10px;
+    height: auto;
+    margin: 0 3%;
+}
+
+#photo-collection img{
+    margin:0 1%;
+    height: 200px;
+    width: 100%;
+}
+@media only screen and (min-width: 900px){
+    nav{
+        height: auto;
+    }
+    #photo-collection{
+        grid-template-columns: auto auto auto auto;  
+    }
+}
+ /* mobile */
+ @media only screen and (max-width: 900px) {
+    nav{
+        height: 120px;
+        margin-top: 20px;
+     }
+
+    #rest-nav-list{
+        display:none;
+
+    }
+    label{
+        margin-bottom: 20px;
+        display: block;
+    }
+    #menu{
+        display: block;
+    }
+    #toggle:checked + .menu{
+        clear: both;
+        
+        display: grid;
+    }
+    #photo-collection{
+        grid-template-columns: auto auto auto;
+    }
+}
