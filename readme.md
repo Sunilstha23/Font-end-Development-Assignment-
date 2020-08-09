@@ -28,11 +28,13 @@
 ### Assignment Three
 >using bootstrap desigin
 >window
-![Screen shot of windobase](Screen-shot/desktop3-only.jpg)
+
+![Screen shot of windowbase](Screen-Shot/desktop3-only.jpg)
 ---
 
 ### Assignment Four incomplete
 >using bootstrap css htm
 >window front part
-![Screen shot of windobase](Screen-shot/incom-font-desktop4.jpg)
+
+![Screen shot of windowbase](Screen-shot/incom-font-desktop4.jpg)
 ---
