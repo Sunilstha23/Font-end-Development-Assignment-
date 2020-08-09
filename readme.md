@@ -36,5 +36,5 @@
 >using bootstrap css htm
 >window front part
 
-![Screen shot of windowbase](Screen-shot/incom-font-desktop4.jpg)
+![Screen shot of windowbase](Screen-Shot/incom-font-desktop4.jpg)
 ---
