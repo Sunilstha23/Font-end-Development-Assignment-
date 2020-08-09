@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 60px;
+    background-color: rgb(37, 36, 36);
+}
+section{
+    height: 900px;
+    background-color: #A9D7E9;
+}
+form{
+    background-color: #F3F3F3;
+    width: 50%;
+}
+.flex-me{
+    display: flex;
+    justify-content: center;
+}
+#right-list{
+    float: right;
+}
